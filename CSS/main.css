@@ -1,44 +1,51 @@
-.navbar a {
-    color: #FFFFFF;
+.navbar-default .navbar-nav>li>a {
+    color: #C0C3C4;
     font-size: 16px;
     font-weight: bold;
-    padding: 10px 10px;
+    padding-left: 10px;
+    -webkit-transition: background-color 0.7s ease;
+    -moz-transition:background-color 0.7s ease;
     text-transform: uppercase;
 }
 
-.navbar li {
-    display: inline;
+.navbar-default .brand {
+    color: #C0C3C4;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 10px;
+    text-transform: uppercase;
 }
 
-.navbar .pull-left {
-    padding-left: 0px; 
+.navbar-default .navbar-nav>li>a:hover {
+    background-color: #757778;
+    color: #FFFFFF;
 }
 
-.navbar .pull-right {
-    padding-left: 0px; 
+.navbar-default .brand:hover {
+    color: #FFFFFF;
 }
 
 .navbar {
-    padding-top: 15px;
-    background-color: #000000;
+    background-color: #4C4C4D;
     border-bottom: none;
+    border-bottom-color: black;
+}
+
+#myNavbar {
+    border-color: black;
 }
 
 .jumbotron {
-    background-image:url(background.jpg);
+    background-color: #054F59;
     height: 600px;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .jumbotron2 {
-    background-image:url(background.jpg);
+    background-color: #054F59;
     height: 250px;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
-.jumbotron .container {
+.jumbotron #mainHeader {
     position: relative;
     top:50px;
     border-bottom-width: 2px;
@@ -46,9 +53,30 @@
     border-bottom-color: black
 }
 
-.jumbotron .container2 {
+.jumbotron #linkHeader {
     margin-top: 100px;
-    padding-left: 33%;
+}
+
+.jumbotron #linkHeader .intro-message{
+    display: table;
+    margin: 0 auto;
+}
+
+.jumbotron #linkHeader .intro-message>ul li{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.jumbotron #linkHeader .intro-message>ul a{
+    background-color: #137C8A;
+    color: #000000;
+    -webkit-transition: background-color 0.7s ease;
+    -moz-transition:background-color 0.7s ease;
+    border-color: #000000;
+}
+
+.jumbotron #linkHeader .intro-message>ul a:hover{
+    background-color: #519EA8;
 }
 
 .jumbotron2 .container{
@@ -56,11 +84,7 @@
     top:20%;
 }
 
-.jumbotron .container2 .row {
-    margin: auto;
-}
-
-.jumbotron h1 {
+.jumbotron h1, .jumbotron2 h1{
     color: #FFFFFF;
     font-size: 120px;  
     font-family: 'Shift', sans-serif;
@@ -69,25 +93,6 @@
     text-align: center;
     text-shadow:
     3px 3px 0 #000,
-    /* Simulated effect for Firefox and Opera
-       and nice enhancement for WebKit */
-   -1px -1px 0 #000,  
-    1px -1px 0 #000,
-   -1px  1px 0 #000,
-    1px  1px 0 #000;
-}
-
-.jumbotron2 h1{
-    color: #FFFFFF;
-    font-size: 120px;  
-    font-family: 'Shift', sans-serif;
-    font-stretch: ultra-expanded; 
-    font-weight: bold;
-    text-align: center;
-    text-shadow:
-    3px 3px 0 #000,
-    /* Simulated effect for Firefox and Opera
-       and nice enhancement for WebKit */
    -1px -1px 0 #000,  
     1px -1px 0 #000,
    -1px  1px 0 #000,
@@ -102,8 +107,6 @@
     font-family: 'Shift', sans-serif;
     text-shadow:
     2px 2px 0 #000,
-    /* Simulated effect for Firefox and Opera
-       and nice enhancement for WebKit */
    -1px -2px 0 #000,  
     1px -2px 0 #000,
    -1px  2px 0 #000,
@@ -117,8 +120,6 @@
     padding-top: 20px;
     text-shadow:
     3px 3px 0 #000,
-    /* Simulated effect for Firefox and Opera
-       and nice enhancement for WebKit */
    -1px -1px 0 #000,  
     1px -1px 0 #000,
    -1px  1px 0 #000,
@@ -161,12 +162,10 @@
 
 .footer {
     top: 100px;
-    background-image:url(background.jpg);
+    background-color: #054F59;
     height: 400px;
-    background-repeat: no-repeat;
-    background-size: cover;
     color: #FFFFFF;
-    text-align: center;
+    text-align:center;
 }
 
 .footer .container {
@@ -178,8 +177,6 @@
     font-size: 64px;
     text-shadow:
     3px 3px 0 #000,
-    /* Simulated effect for Firefox and Opera
-       and nice enhancement for WebKit */
    -1px -1px 0 #000,  
     1px -1px 0 #000,
    -1px  1px 0 #000,
@@ -191,8 +188,6 @@
     font-size: 20px;
     text-shadow:
     3px 3px 0 #000,
-    /* Simulated effect for Firefox and Opera
-       and nice enhancement for WebKit */
    -1px -1px 0 #000,  
     1px -1px 0 #000,
    -1px  1px 0 #000,
@@ -201,17 +196,27 @@
 
 .footer i {
     text-align: center;
-    text-shadow: none;
+    text-shadow:
+    3px 3px 0 #000,
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+   -1px  1px 0 #000,
+    1px  1px 0 #000;
 }
 
 .footer a {
     color: #FFFFFF;   
 }
 
-.side-projects .container {
+.footer2 {
+    color: #000000;
+    text-align:center;
+}
+
+.side-projects .container, .skills .container {
     margin: auto;
+    padding: auto;
     padding-bottom: 10px;
-    padding-right: 0px;
 }
 
 .side-projects .icons {
@@ -237,18 +242,12 @@
     padding-left: 10px;
 }
 
-.side-projects .header {
-    padding-top: 20px;
+.side-projects .header, .skills .header{
     margin: auto;
     overflow: hidden;
     border-bottom-color: #000000;
     border-bottom-width: 2px;
     border-bottom-style: solid;
-}
-
-.skills .container {
-    margin: auto;
-    padding-bottom: 10px;
 }
 
 .skills h3 {
@@ -257,21 +256,7 @@
     vertical-align: middle;
 }
 
-.skills h4 {
-    text-align: center;
-    font-size: 30px;
-    vertical-align: middle;
-}
-
 .skills p {
     text-align: center;
     font-size: 16px;
-}
-
-.skills .header {
-    margin: auto;
-    overflow: hidden;
-    border-bottom-color: #000000;
-    border-bottom-width: 2px;
-    border-bottom-style: solid;
 }
