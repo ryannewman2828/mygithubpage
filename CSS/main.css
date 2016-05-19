@@ -256,7 +256,39 @@
     vertical-align: middle;
 }
 
-.skills p {
+.skills ul {
+    list-style: none;
+}
+
+.skills li {
     text-align: center;
     font-size: 16px;
 }
+
+/* FIX THESE */
+.skills .active {
+    background-color: #054F59;
+}
+
+.skills .active:hover{
+    background-color: #043F47;
+}
+
+.skills button{
+    background-color: #137C8A;
+}
+
+.skills button:hover{
+    background-color: #146A75;
+}
+/*
+.skills .active:focus {
+    background-color: #137C8A;
+    outline: none;
+}
+
+.skills button:focus {
+    background-color: #043F47;
+    outline: none;
+}
+*/

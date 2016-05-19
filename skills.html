@@ -8,7 +8,7 @@
         <meta name="description" content="Ryan Newman's side projects">
         <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
         <link href="CSS/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="CSS/main.css">
+        <link rel="stylesheet" href="CSS/main.css">       
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
         <!-- jQuery -->
@@ -16,6 +16,8 @@
 
         <!-- Bootstrap Core JavaScript -->
         <script src="JS/bootstrap.js"></script>
+        
+        <script src="JS/skillWriter.js"></script>
     </head>
     <body>
         
@@ -48,108 +50,78 @@
         </div> 
         
         <div class="skills">
-            <div class="java">
+            <div class="javaC">
                 <div class="container">
                     <div class="header">
-                        <h3><i class="devicon-java-plain"></i> Java <span><button class="btn btn-info" onclick="">See Skill</button></span></h3>
+                        <h3><i class="devicon-java-plain"></i> Java <span><button class="btn btn-info" id="javaButton" onclick='clickButton("javaButton", "java");'>See Skill</button></span></h3>
                         
                     </div>
                 </div>
-                <div class="container">
-                        <p>Completed multiple side projects</p>
-                        <p>Authored and participated in multiple programming contests</p>
-                        <p>Implemented algorithms to optimize memory allocation and run-time</p>
-                        <p>Two highschool classes completed with 95+%</p>
-                </div>
+                <div class="container" id="java"></div>
             </div>
-            <div class="c++">
+            <div class="c++C">
                 <div class="container">
                     <div class="header">
-                        <h3><i class="devicon-cplusplus-plain"></i> C++</h3>
+                        <h3><i class="devicon-cplusplus-plain"></i> C++ <span><button class="btn btn-info" id="c++Button" onclick='clickButton("c++Button", "c++");'>See Skill</button></span></h3>
                     </div>
                 </div>
-                <div class="container">
-                    <p>Learned through online documentation</p>
-                    <p>Participated in multiple programming contests</p>
-                    <p>Implemented algorithms to optimize memory allocation and run-time</p>
-                </div>
+                <div class="container" id="c++"></div>
             </div>
-            <div class="c">
+            <div class="cC">
                 <div class="container">
                     <div class="header">
-                        <h3><i class="devicon-c-plain"></i> C</h3>
+                        <h3><i class="devicon-c-plain"></i> C <span><button class="btn btn-info" id="cButton" onclick='clickButton("cButton", "c");'>See Skill</button></span></h3>
                     </div>
                 </div>
-                <div class="container">
-                    <p>Participated in multiple programming contests</p>
-                    <p>Implemented algorithms to optimize memory allocation and run-time</p>
-                    <p>Currently enrolled in a university course</p>
-                </div>
+                <div class="container" id="c"></div>
             </div>
-            <div class="scheme">
+            <div class="schemeC">
                 <div class="container">
                     <div class="header">
-                        <h3>Scheme</h3>
+                        <h3>Scheme <span><button class="btn btn-info" id="schemeButton" onclick='clickButton("schemeButton", "scheme");'>See Skill</button></span></h3>
                     </div>
                 </div>
-                <div class="container">
-                    <p>87% in university programming course</p>
-                </div>
+                <div class="container" id="scheme"></div>
             </div>
-            <div class="android">
+            <div class="androidC">
                 <div class="container">
                     <div class="header">
-                        <h3><i class="devicon-android-plain"></i> Android</h3>
+                        <h3><i class="devicon-android-plain"></i> Android <span><button class="btn btn-info" id="androidButton" onclick='clickButton("androidButton", "android");'>See Skill</button></span></h3>
                     </div>
                 </div>
-                <div class="container">
-                    <p>Learned through online documentation</p>
-                    <p>Programmed GradeBook application</p>
-                </div>
+                <div class="container" id="android"></div>
             </div>
-            <div class="xml">
+            <div class="xmlC">
                 <div class="container">
                     <div class="header">
-                        <h3>XML</h3>
+                        <h3>XML <span><button class="btn btn-info" id="xmlButton" onclick='clickButton("xmlButton", "xml");'>See Skill</button></span></h3>
                     </div>
                 </div>
-                <div class="container">
-                    <p>Learned through online documentation</p>
-                    <p>Styled GradeBook application</p>
-                </div>
+                <div class="container" id="xml"></div>
             </div>
-            <div class="html">
+            <div class="htmlC">
                 <div class="container">
                     <div class="header">
-                        <h3><i class="devicon-html5-plain"></i> HTML</h3>
+                        <h3><i class="devicon-html5-plain"></i> HTML <span><button class="btn btn-info" id="htmlButton" onclick='clickButton("htmlButton", "html");'>See Skill</button></span></h3>
                     </div>
                 </div>
-                <div class="container">
-                    <p>Learned through online documentation</p>
-                    <p>Created personal webstie</p>
-                </div>
+                <div class="container" id="html"></div>
             </div>
-            <div class="css">
+            <div class="cssC">
                 <div class="container">
                     <div class="header">
-                        <h3><i class="devicon-css3-plain"></i> CSS</h3>
+                        <h3><i class="devicon-css3-plain"></i> CSS <span><button class="btn btn-info" id="cssButton" onclick='clickButton("cssButton", "css");'>See Skill</button></span></h3>
                     </div>
                 </div>
-                <div class="container">
-                    <p>Learned through online documentation</p>
-                    <p>Utilized for styling my personal website</p>
-                </div>
+                <div class="container" id="css"></div>
             </div>
-            <div class="bootstrap">
+            <div class="bootstrapC">
                 <div class="container">
                     <div class="header">
-                        <h3><i class="devicon-bootstrap-plain"></i> Bootstrap</h3>
+                        <h3><i class="devicon-bootstrap-plain"></i> Bootstrap <span><button class="btn btn-info" id="bootstrapButton" onclick='clickButton("bootstrapButton", "bootstrap");'>See Skill</button></span></h3>
                     </div>
                 </div>
-                <div class="container">
-                    <p>Learned through online documentation</p>
-                    <p>Assisted with the styling of my personal website</p>
-                </div>
+                <div class="container" id="bootstrap"></div>
             </div>
 	    </div>
         <div class = "footer2">
