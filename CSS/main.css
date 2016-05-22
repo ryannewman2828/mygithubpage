@@ -208,6 +208,9 @@
 }
 
 .skills ul {
+    display: none;
+    margin: 0px;
+    padding: 0px;
     list-style: none;
 }
 
@@ -232,17 +235,16 @@
 .skills button:hover{
     background-color: #146A75;
 }
-/*
+
 .skills .active:focus {
-    background-color: #137C8A;
+    background-color: #043F47;
     outline: none;
 }
 
 .skills button:focus {
-    background-color: #043F47;
+    background-color: #137C8A;
     outline: none;
 }
-*/
 
 .footer {
     background-color: #054F59;
