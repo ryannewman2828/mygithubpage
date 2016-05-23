@@ -238,12 +238,21 @@
     text-align: center;
 }
 
-.skills .active {
+.skills .pressed {
     background-color: #054F59;
 }
 
-.skills .active:hover{
+.skills .pressed:hover{
     background-color: #043F47;
+}
+
+.skills .pressed:focus {
+    background-color: #043F47;
+    outline: none;
+}
+
+.skills .pressed:active{
+     background-color: #043F47;
 }
 
 .skills button{
@@ -254,14 +263,13 @@
     background-color: #146A75;
 }
 
-.skills .active:focus {
-    background-color: #043F47;
-    outline: none;
-}
-
 .skills button:focus {
     background-color: #137C8A;
     outline: none;
+}
+
+.skills .btn:active {
+    background-color: #146A75;
 }
 
 .footer {

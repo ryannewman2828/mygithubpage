@@ -1,11 +1,11 @@
 $(document).ready(init);
 
 function init(){
-   $("button").click(press);
+    $("button").click(press);
 }
 
 function press(){
-    $(this).toggleClass("active");
+    $(this).toggleClass("pressed");
     var classType = this.id;
     $("." + classType).slideToggle('slow');
 }
