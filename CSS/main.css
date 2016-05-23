@@ -45,6 +45,10 @@
     height: 250px;
 }
 
+.jumbotron #linkHeader .intro-message ul{
+    padding: 0px;
+}
+
 .jumbotron #mainHeader {
     position: relative;
     top:50px;
@@ -159,7 +163,7 @@
     text-align: center;
 }
 
-.side-projects .container, .skills .container {
+.side-projects .container, .skills .container, .experience .container {
     margin: auto;
     padding: auto;
     padding-bottom: 10px;
@@ -174,7 +178,7 @@
     font-size: 40px;
 }
 
-.side-projects h3 {
+.side-projects h3, .experience h3 {
     position: relative;
     display: inline-block;
     float: left;
@@ -182,7 +186,7 @@
     vertical-align: middle;
 }
 
-.side-projects p {
+.side-projects p, .experience p {
     font-size: 18px;
     padding-left: 10px;
 }
@@ -193,12 +197,27 @@
     margin-right: auto;
 }
 
-.side-projects .header, .skills .header{
+.side-projects .header, .skills .header, .experience .header {
     margin: auto;
     overflow: hidden;
     border-bottom-color: #000000;
     border-bottom-width: 2px;
     border-bottom-style: solid;
+}
+
+.experience .position{
+    float: right;
+}
+
+.experience .icons {
+    display: inline-block;
+    float: left;
+    vertical-align: middle; 
+    font-size: 40px;
+}
+
+.experience ul {
+    list-style: square;
 }
 
 .skills h3 {
@@ -219,7 +238,6 @@
     font-size: 16px;
 }
 
-/* FIX THESE */
 .skills .active {
     background-color: #054F59;
 }
@@ -311,7 +329,11 @@
         display: table;
         margin: 0 auto;
     }
-
+    
+    .jumbotron #linkHeader .intro-message ul{
+        padding: 0px;
+    }
+    
     .jumbotron #linkHeader .intro-message>ul li{
         padding-left: 10px;
         padding-right: 10px;
