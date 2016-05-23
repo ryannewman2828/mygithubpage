@@ -3,9 +3,9 @@
     font-size: 16px;
     font-weight: bold;
     padding-left: 10px;
+    text-transform: uppercase;
     -webkit-transition: background-color 0.7s ease;
     -moz-transition:background-color 0.7s ease;
-    text-transform: uppercase;
 }
 
 .navbar-default .brand {
@@ -45,10 +45,6 @@
     height: 250px;
 }
 
-.jumbotron #linkHeader .intro-message ul{
-    padding: 0px;
-}
-
 .jumbotron #mainHeader {
     position: relative;
     top:50px;
@@ -61,7 +57,11 @@
     margin-top: 100px;
 }
 
-.jumbotron #linkHeader .intro-message ul li{
+.jumbotron #linkHeader .intro-message ul{
+    padding: 0px;
+}
+
+.jumbotron #linkHeader .intro-message>ul li{
     list-style: none;
     text-align: center;
     padding-bottom: 20px;
@@ -70,9 +70,9 @@
 .jumbotron #linkHeader .intro-message>ul a{
     background-color: #137C8A;
     color: #000000;
+     border-color: #000000;
     -webkit-transition: background-color 0.7s ease;
     -moz-transition:background-color 0.7s ease;
-    border-color: #000000;
 }
 
 .jumbotron #linkHeader .intro-message>ul a:hover{
@@ -147,9 +147,9 @@
 }
 
 .about-me h2{
+    font-size: 52px;
     text-align: center;
     font-family: 'Shift', sans-serif;
-    font-size: 52px;
 }
 
 .about-me img{
@@ -170,19 +170,19 @@
 }
 
 .side-projects .icons {
-    padding-top: 10px;
+    font-size: 40px;
     position: relative;
     display: inline-block;
     float: right;
     vertical-align: middle; 
-    font-size: 40px;
+    padding-top: 10px;
 }
 
 .side-projects h3, .experience h3 {
+    font-size: 30px;
     position: relative;
     display: inline-block;
     float: left;
-    font-size: 30px;
     vertical-align: middle;
 }
 
@@ -210,10 +210,10 @@
 }
 
 .experience .icons {
+    font-size: 40px;
     display: inline-block;
     float: left;
     vertical-align: middle; 
-    font-size: 40px;
 }
 
 .experience ul {
@@ -221,8 +221,8 @@
 }
 
 .skills h3 {
-    text-align: center;
     font-size: 48px;
+    text-align: center;
     vertical-align: middle;
 }
 
@@ -234,8 +234,8 @@
 }
 
 .skills li {
-    text-align: center;
     font-size: 16px;
+    text-align: center;
 }
 
 .skills .active {
@@ -358,7 +358,6 @@
     }
 
     .about-me h2{
-        text-align: center;
         font-size: 52px;
     }
 
