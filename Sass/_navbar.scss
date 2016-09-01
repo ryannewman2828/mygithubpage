@@ -1,0 +1,40 @@
+.navbar-default {
+    .navbar-nav {
+        > li {
+            > a {
+                color: #C0C3C4;
+                font-size: 16px;
+                font-weight: bold;
+                text-transform: uppercase;
+                -webkit-transition: background-color 0.7s ease;
+                -moz-transition:background-color 0.7s ease;
+                
+                &:hover {
+                    background-color: #757778;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+    .brand {
+        color: #C0C3C4;
+        font-size: 16px;
+        font-weight: bold;
+        padding-left: 10px;
+        text-transform: uppercase;
+        
+        &:hover {
+            color: #FFFFFF;
+        }
+    }
+}
+
+.navbar {
+    background-color: #4C4C4D;
+    border-bottom: none;
+    border-bottom-color: black;
+}
+
+#myNavbar {
+    border-color: black;
+}

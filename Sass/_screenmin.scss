@@ -1,0 +1,83 @@
+@media only screen and (min-width: 768px) {
+    .jumbotron {
+        height: 600px;
+        
+        #linkHeader {
+            .intro-message {
+                display: table;
+                margin: 0 auto;
+                
+                ul {
+                    padding: 0px;
+                }
+                
+                > ul {
+                    li {
+                        padding-left: 10px;
+                        padding-right: 10px;
+                        display: inline;
+                    }
+                }
+            }
+        }
+        
+        h2 {
+            font-size: 32px;
+        }
+        
+        p {
+            font-size: 20px;
+        }
+    }
+
+    .jumbotron2 {
+        height: 250px;
+        
+        .container {
+            position: relative;
+            top:20%;
+        }
+    } 
+
+    .jumbotron,
+    .jumbotron2 {
+        h1 { 
+            font-size: 100px;
+        }
+    }
+
+    .about-me {
+        h2 {
+            font-size: 52px;
+        }
+        
+        img {
+            margin-right: auto;
+        }
+    } 
+
+    .side-projects {
+        h3 {
+            font-size: 40px;
+        }
+        
+        .icons {
+            font-size: 50px;
+        }
+    }
+    
+    .footer {
+        .container {
+            top: 20%;
+        }
+        
+        h2 {
+            font-size: 64px;
+            padding-bottom: 20px;
+        }
+        
+        p {
+            font-size: 20px;
+        }
+    }
+}

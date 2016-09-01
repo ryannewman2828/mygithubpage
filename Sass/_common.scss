@@ -1,0 +1,33 @@
+.side-projects,
+.skills,
+.experience {
+    .container {
+        margin: auto;
+        padding: auto;
+        padding-bottom: 10px;
+    }
+    
+    .header {
+        margin: auto;
+        overflow: hidden;
+        border-bottom-color: #000000;
+        border-bottom-width: 2px;
+        border-bottom-style: solid;
+    }
+}
+
+.side-projects,
+.experience {
+    h3 {
+        font-size: 30px;
+        position: relative;
+        display: inline-block;
+        float: left;
+        vertical-align: middle;
+    }
+    
+    p {
+        font-size: 18px;
+        padding-left: 10px;
+    }
+}
