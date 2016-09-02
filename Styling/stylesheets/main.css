@@ -385,3 +385,7 @@
     font-size: 20px;
   }
 }
+/* line 1, ../sass/_resume.scss */
+.resume {
+  padding-top: 10px;
+}
