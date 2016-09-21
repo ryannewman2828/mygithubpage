@@ -3,14 +3,11 @@
         float: right;
     }
     
-    .icons {
-        font-size: 40px;
-        display: inline-block;
-        float: left;
-        vertical-align: middle; 
+    .categories {
+        list-style: none;
     }
     
-    ul {
-        list-style: square;
+    h4 {
+        font-size: 24px;
     }
 }
