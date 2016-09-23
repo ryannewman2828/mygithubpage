@@ -6,15 +6,15 @@
     }
     
     ul {
-       display: none;
+        display: none;
         margin: 0px;
         padding: 0px;
-        list-style: none; 
+        list-style: square; 
     }
     
     li {
         font-size: 16px;
-        text-align: center;
+        text-align: left;
     }
     
     .pressed {
