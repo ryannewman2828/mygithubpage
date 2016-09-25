@@ -125,24 +125,29 @@
   font-size: 18px;
   text-align: center; }
 
-/* line 4, ../sass/_common.scss */
-.side-projects .container,
-.skills .container,
-.experience .container {
-  margin: auto;
-  padding: auto;
+/* line 1, ../sass/_common.scss */
+.side-projects,
+.skills,
+.experience {
   padding-bottom: 10px; }
-/* line 10, ../sass/_common.scss */
-.side-projects .header,
-.skills .header,
-.experience .header {
-  margin: auto;
-  overflow: hidden;
-  border-bottom-color: #000000;
-  border-bottom-width: 2px;
-  border-bottom-style: solid; }
+  /* line 7, ../sass/_common.scss */
+  .side-projects .container,
+  .skills .container,
+  .experience .container {
+    margin: auto;
+    padding: auto;
+    padding-bottom: 10px; }
+  /* line 13, ../sass/_common.scss */
+  .side-projects .header,
+  .skills .header,
+  .experience .header {
+    margin: auto;
+    overflow: hidden;
+    border-bottom-color: #000000;
+    border-bottom-width: 2px;
+    border-bottom-style: solid; }
 
-/* line 21, ../sass/_common.scss */
+/* line 24, ../sass/_common.scss */
 .side-projects h3,
 .experience h3 {
   font-size: 30px;
@@ -150,7 +155,7 @@
   display: inline-block;
   float: left;
   vertical-align: middle; }
-/* line 29, ../sass/_common.scss */
+/* line 32, ../sass/_common.scss */
 .side-projects p,
 .experience p {
   font-size: 18px;
@@ -191,11 +196,11 @@
   display: none;
   margin: 0px;
   padding: 0px;
-  list-style: none; }
+  list-style: square; }
 /* line 15, ../sass/_skills.scss */
 .skills li {
   font-size: 16px;
-  text-align: center; }
+  text-align: left; }
 /* line 20, ../sass/_skills.scss */
 .skills .pressed {
   background-color: #054F59; }

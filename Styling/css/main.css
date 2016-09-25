@@ -102,20 +102,24 @@
   font-size: 18px;
   text-align: center; }
 
-.side-projects .container,
-.skills .container,
-.experience .container {
-  margin: auto;
-  padding: auto;
+.side-projects,
+.skills,
+.experience {
   padding-bottom: 10px; }
-.side-projects .header,
-.skills .header,
-.experience .header {
-  margin: auto;
-  overflow: hidden;
-  border-bottom-color: #000000;
-  border-bottom-width: 2px;
-  border-bottom-style: solid; }
+  .side-projects .container,
+  .skills .container,
+  .experience .container {
+    margin: auto;
+    padding: auto;
+    padding-bottom: 10px; }
+  .side-projects .header,
+  .skills .header,
+  .experience .header {
+    margin: auto;
+    overflow: hidden;
+    border-bottom-color: #000000;
+    border-bottom-width: 2px;
+    border-bottom-style: solid; }
 
 .side-projects h3,
 .experience h3 {
