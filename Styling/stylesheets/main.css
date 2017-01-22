@@ -1,3 +1,4 @@
+/* line 4, ../sass/_navbar.scss */
 .navbar-default .navbar-nav > li > a {
   color: #C0C3C4;
   font-size: 16px;
@@ -5,51 +6,64 @@
   text-transform: uppercase;
   -webkit-transition: background-color 0.7s ease;
   -moz-transition: background-color 0.7s ease; }
+  /* line 12, ../sass/_navbar.scss */
   .navbar-default .navbar-nav > li > a:hover {
     background-color: #757778;
     color: #FFFFFF; }
+/* line 19, ../sass/_navbar.scss */
 .navbar-default .brand {
   color: #C0C3C4;
   font-size: 16px;
   font-weight: bold;
   padding-left: 10px;
   text-transform: uppercase; }
+  /* line 26, ../sass/_navbar.scss */
   .navbar-default .brand:hover {
     color: #FFFFFF; }
 
+/* line 32, ../sass/_navbar.scss */
 .navbar {
   background-color: #4C4C4D;
   border-bottom: none;
   border-bottom-color: black; }
 
+/* line 38, ../sass/_navbar.scss */
 #myNavbar {
   border-color: black; }
 
+/* line 1, ../sass/_jumbotron.scss */
 .jumbotron {
   background-color: #054F59;
   height: 750px; }
+  /* line 5, ../sass/_jumbotron.scss */
   .jumbotron #mainHeader {
     position: relative;
     top: 50px;
     border-bottom-width: 2px;
     border-bottom-style: solid;
     border-bottom-color: black; }
+  /* line 13, ../sass/_jumbotron.scss */
   .jumbotron #linkHeader {
     margin-top: 100px; }
+    /* line 17, ../sass/_jumbotron.scss */
     .jumbotron #linkHeader .intro-message ul {
       padding: 0px; }
+    /* line 22, ../sass/_jumbotron.scss */
     .jumbotron #linkHeader .intro-message > ul li {
       list-style: none;
       text-align: center;
       padding-bottom: 20px; }
+    /* line 28, ../sass/_jumbotron.scss */
     .jumbotron #linkHeader .intro-message > ul a {
       background-color: #137C8A;
       color: #000000;
       border-color: #000000;
       -webkit-transition: background-color 0.7s ease;
       -moz-transition: background-color 0.7s ease; }
+      /* line 35, ../sass/_jumbotron.scss */
       .jumbotron #linkHeader .intro-message > ul a:hover {
         background-color: #519EA8; }
+  /* line 43, ../sass/_jumbotron.scss */
   .jumbotron h1 {
     font-size: 50px;
     color: #FFFFFF;
@@ -58,6 +72,7 @@
     font-weight: bold;
     text-align: center;
     text-shadow: 3px 3px 0 #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px  1px 0 #000, 1px  1px 0 #000; }
+  /* line 58, ../sass/_jumbotron.scss */
   .jumbotron h2 {
     font-size: 24px;
     color: #FFFFFF;
@@ -65,6 +80,7 @@
     padding-top: 10px;
     font-family: 'Shift', sans-serif;
     text-shadow: 2px 2px 0 #000, -1px -2px 0 #000,   1px -2px 0 #000, -1px  2px 0 #000, 1px  2px 0 #000; }
+  /* line 72, ../sass/_jumbotron.scss */
   .jumbotron p {
     font-size: 16px;
     text-align: center;
@@ -72,12 +88,15 @@
     padding-top: 20px;
     text-shadow: 3px 3px 0 #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px  1px 0 #000, 1px  1px 0 #000; }
 
+/* line 86, ../sass/_jumbotron.scss */
 .jumbotron2 {
   background-color: #054F59;
   height: 250px; }
+  /* line 90, ../sass/_jumbotron.scss */
   .jumbotron2 .container {
     position: relative;
     top: 20%; }
+  /* line 95, ../sass/_jumbotron.scss */
   .jumbotron2 h1 {
     font-size: 70px;
     color: #FFFFFF;
@@ -87,31 +106,38 @@
     text-align: center;
     text-shadow: 3px 3px 0 #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px  1px 0 #000, 1px  1px 0 #000; }
 
+/* line 2, ../sass/_aboutme.scss */
 .about-me .container {
   margin: auto;
   padding-bottom: 50px; }
+/* line 7, ../sass/_aboutme.scss */
 .about-me h2 {
   font-size: 52px;
   text-align: center;
   font-family: 'Shift', sans-serif; }
+/* line 13, ../sass/_aboutme.scss */
 .about-me img {
   display: block;
   margin-left: auto;
   margin-right: auto; }
+/* line 19, ../sass/_aboutme.scss */
 .about-me p {
   font-size: 18px;
   text-align: center; }
 
+/* line 1, ../sass/_common.scss */
 .side-projects,
 .skills,
 .experience {
   padding-bottom: 10px; }
+  /* line 7, ../sass/_common.scss */
   .side-projects .container,
   .skills .container,
   .experience .container {
     margin: auto;
     padding: auto;
     padding-bottom: 10px; }
+  /* line 13, ../sass/_common.scss */
   .side-projects .header,
   .skills .header,
   .experience .header {
@@ -121,6 +147,7 @@
     border-bottom-width: 2px;
     border-bottom-style: solid; }
 
+/* line 24, ../sass/_common.scss */
 .side-projects h3,
 .experience h3 {
   font-size: 30px;
@@ -128,11 +155,13 @@
   display: inline-block;
   float: left;
   vertical-align: middle; }
+/* line 32, ../sass/_common.scss */
 .side-projects p,
 .experience p {
   font-size: 18px;
   padding-left: 10px; }
 
+/* line 2, ../sass/_sideprojects.scss */
 .side-projects .icons {
   font-size: 40px;
   position: relative;
@@ -141,117 +170,156 @@
   vertical-align: middle;
   padding-top: 10px; }
 
+/* line 14, ../sass/_sideprojects.scss */
 .side-projects .container img {
   display: block;
   margin-left: auto;
   margin-right: auto; }
 
+/* line 2, ../sass/_experience.scss */
 .experience .position {
   float: right; }
+/* line 6, ../sass/_experience.scss */
 .experience .categories {
   list-style: none; }
+/* line 10, ../sass/_experience.scss */
 .experience h4 {
   font-size: 24px; }
 
+/* line 2, ../sass/_skills.scss */
 .skills h3 {
   font-size: 48px;
   text-align: center;
   vertical-align: middle; }
+/* line 8, ../sass/_skills.scss */
 .skills ul {
   display: none;
   margin: 0px;
   padding: 0px;
   list-style: square; }
+/* line 15, ../sass/_skills.scss */
 .skills li {
   font-size: 16px;
   text-align: left; }
+/* line 20, ../sass/_skills.scss */
 .skills .pressed {
   background-color: #054F59; }
+  /* line 23, ../sass/_skills.scss */
   .skills .pressed:hover {
     background-color: #043F47; }
+  /* line 27, ../sass/_skills.scss */
   .skills .pressed:focus {
     background-color: #043F47;
     outline: none; }
+  /* line 32, ../sass/_skills.scss */
   .skills .pressed:active {
     background-color: #043F47; }
+/* line 37, ../sass/_skills.scss */
 .skills button {
   background-color: #137C8A; }
+  /* line 40, ../sass/_skills.scss */
   .skills button:hover {
     background-color: #146A75; }
+  /* line 44, ../sass/_skills.scss */
   .skills button:focus {
     background-color: #137C8A;
     outline: none; }
+/* line 52, ../sass/_skills.scss */
 .skills .btn:active {
   background-color: #146A75; }
 
+/* line 1, ../sass/_footer.scss */
 .footer {
   background-color: #054F59;
   height: 400px;
   color: #FFFFFF;
   text-align: center; }
+  /* line 7, ../sass/_footer.scss */
   .footer .container {
     position: relative;
     top: 10%; }
+  /* line 12, ../sass/_footer.scss */
   .footer h2 {
     font-size: 52px;
     text-shadow: 3px 3px 0 #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px  1px 0 #000, 1px  1px 0 #000;
     padding-bottom: 20px; }
+  /* line 23, ../sass/_footer.scss */
   .footer p {
     font-size: 16px;
     text-shadow: 3px 3px 0 #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px  1px 0 #000, 1px  1px 0 #000; }
+  /* line 33, ../sass/_footer.scss */
   .footer i {
     text-align: center;
     text-shadow: 3px 3px 0 #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px  1px 0 #000, 1px  1px 0 #000; }
+  /* line 43, ../sass/_footer.scss */
   .footer a {
     color: #FFFFFF; }
 
+/* line 48, ../sass/_footer.scss */
 .footer2 {
   color: #000000;
   text-align: center; }
 
 @media only screen and (min-width: 768px) {
+  /* line 2, ../sass/_screenmin.scss */
   .jumbotron {
     height: 600px; }
+    /* line 6, ../sass/_screenmin.scss */
     .jumbotron #linkHeader .intro-message {
       display: table;
       margin: 0 auto; }
+      /* line 10, ../sass/_screenmin.scss */
       .jumbotron #linkHeader .intro-message ul {
         padding: 0px; }
+      /* line 15, ../sass/_screenmin.scss */
       .jumbotron #linkHeader .intro-message > ul li {
         padding-left: 10px;
         padding-right: 10px;
         display: inline; }
+    /* line 24, ../sass/_screenmin.scss */
     .jumbotron h2 {
       font-size: 32px; }
+    /* line 28, ../sass/_screenmin.scss */
     .jumbotron p {
       font-size: 20px; }
 
+  /* line 33, ../sass/_screenmin.scss */
   .jumbotron2 {
     height: 250px; }
+    /* line 36, ../sass/_screenmin.scss */
     .jumbotron2 .container {
       position: relative;
       top: 20%; }
 
+  /* line 44, ../sass/_screenmin.scss */
   .jumbotron h1,
   .jumbotron2 h1 {
     font-size: 100px; }
 
+  /* line 50, ../sass/_screenmin.scss */
   .about-me h2 {
     font-size: 52px; }
+  /* line 54, ../sass/_screenmin.scss */
   .about-me img {
     margin-right: auto; }
 
+  /* line 60, ../sass/_screenmin.scss */
   .side-projects h3 {
     font-size: 40px; }
+  /* line 64, ../sass/_screenmin.scss */
   .side-projects .icons {
     font-size: 50px; }
 
+  /* line 70, ../sass/_screenmin.scss */
   .footer .container {
     top: 20%; }
+  /* line 74, ../sass/_screenmin.scss */
   .footer h2 {
     font-size: 64px;
     padding-bottom: 20px; }
+  /* line 79, ../sass/_screenmin.scss */
   .footer p {
     font-size: 20px; } }
+/* line 1, ../sass/_resume.scss */
 .resume {
   padding-top: 10px; }

@@ -1,0 +1,259 @@
+.navbar-default .navbar-nav > li > a {
+  color: #C0C3C4;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  -webkit-transition: background-color 0.7s ease;
+  -moz-transition: background-color 0.7s ease; }
+  .navbar-default .navbar-nav > li > a:hover {
+    background-color: #757778;
+    color: #FFFFFF; }
+.navbar-default .brand {
+  color: #C0C3C4;
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 10px;
+  text-transform: uppercase; }
+  .navbar-default .brand:hover {
+    color: #FFFFFF; }
+
+.navbar {
+  background-color: #4C4C4D;
+  border-bottom: none;
+  border-bottom-color: black; }
+
+#myNavbar {
+  border-color: black; }
+
+.jumbotron {
+  background-color: #054F59;
+  height: 750px; }
+  .jumbotron #mainHeader {
+    position: relative;
+    top: 50px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: black; }
+  .jumbotron #linkHeader {
+    margin-top: 100px; }
+    .jumbotron #linkHeader .intro-message ul {
+      padding: 0px; }
+    .jumbotron #linkHeader .intro-message > ul li {
+      list-style: none;
+      text-align: center;
+      padding-bottom: 20px; }
+    .jumbotron #linkHeader .intro-message > ul a {
+      background-color: #137C8A;
+      color: #000000;
+      border-color: #000000;
+      -webkit-transition: background-color 0.7s ease;
+      -moz-transition: background-color 0.7s ease; }
+      .jumbotron #linkHeader .intro-message > ul a:hover {
+        background-color: #519EA8; }
+  .jumbotron h1 {
+    font-size: 50px;
+    color: #FFFFFF;
+    font-family: 'Shift', sans-serif;
+    font-stretch: ultra-expanded;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 3px 3px 0 #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px  1px 0 #000, 1px  1px 0 #000; }
+  .jumbotron h2 {
+    font-size: 24px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Shift', sans-serif;
+    text-shadow: 2px 2px 0 #000, -1px -2px 0 #000,   1px -2px 0 #000, -1px  2px 0 #000, 1px  2px 0 #000; }
+  .jumbotron p {
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 20px;
+    text-shadow: 3px 3px 0 #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px  1px 0 #000, 1px  1px 0 #000; }
+
+.jumbotron2 {
+  background-color: #054F59;
+  height: 250px; }
+  .jumbotron2 .container {
+    position: relative;
+    top: 20%; }
+  .jumbotron2 h1 {
+    font-size: 70px;
+    color: #FFFFFF;
+    font-family: 'Shift', sans-serif;
+    font-stretch: ultra-expanded;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 3px 3px 0 #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px  1px 0 #000, 1px  1px 0 #000; }
+
+.about-me .container {
+  margin: auto;
+  padding-bottom: 50px; }
+.about-me h2 {
+  font-size: 52px;
+  text-align: center;
+  font-family: 'Shift', sans-serif; }
+.about-me img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+.about-me p {
+  font-size: 18px;
+  text-align: center; }
+
+.side-projects,
+.skills,
+.experience {
+  padding-bottom: 10px; }
+  .side-projects .container,
+  .skills .container,
+  .experience .container {
+    margin: auto;
+    padding: auto;
+    padding-bottom: 10px; }
+  .side-projects .header,
+  .skills .header,
+  .experience .header {
+    margin: auto;
+    overflow: hidden;
+    border-bottom-color: #000000;
+    border-bottom-width: 2px;
+    border-bottom-style: solid; }
+
+.side-projects h3,
+.experience h3 {
+  font-size: 30px;
+  position: relative;
+  display: inline-block;
+  float: left;
+  vertical-align: middle; }
+.side-projects p,
+.experience p {
+  font-size: 18px;
+  padding-left: 10px; }
+
+.side-projects .icons {
+  font-size: 40px;
+  position: relative;
+  display: inline-block;
+  float: right;
+  vertical-align: middle;
+  padding-top: 10px; }
+
+.side-projects .container img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.experience .position {
+  float: right; }
+.experience .categories {
+  list-style: none; }
+.experience h4 {
+  font-size: 24px; }
+
+.skills h3 {
+  font-size: 48px;
+  text-align: center;
+  vertical-align: middle; }
+.skills ul {
+  display: none;
+  margin: 0px;
+  padding: 0px;
+  list-style: square; }
+.skills li {
+  font-size: 16px;
+  text-align: left; }
+.skills .pressed {
+  background-color: #054F59; }
+  .skills .pressed:hover {
+    background-color: #043F47; }
+  .skills .pressed:focus {
+    background-color: #043F47;
+    outline: none; }
+  .skills .pressed:active {
+    background-color: #043F47; }
+.skills button {
+  background-color: #137C8A; }
+  .skills button:hover {
+    background-color: #146A75; }
+  .skills button:focus {
+    background-color: #137C8A;
+    outline: none; }
+.skills .btn:active {
+  background-color: #146A75; }
+
+.footer {
+  background-color: #054F59;
+  height: 400px;
+  color: #FFFFFF;
+  text-align: center; }
+  .footer .container {
+    position: relative;
+    top: 10%; }
+  .footer h2 {
+    font-size: 52px;
+    text-shadow: 3px 3px 0 #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px  1px 0 #000, 1px  1px 0 #000;
+    padding-bottom: 20px; }
+  .footer p {
+    font-size: 16px;
+    text-shadow: 3px 3px 0 #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px  1px 0 #000, 1px  1px 0 #000; }
+  .footer i {
+    text-align: center;
+    text-shadow: 3px 3px 0 #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px  1px 0 #000, 1px  1px 0 #000; }
+  .footer a {
+    color: #FFFFFF; }
+
+.footer2 {
+  color: #000000;
+  text-align: center; }
+
+@media only screen and (min-width: 768px) {
+  .jumbotron {
+    height: 600px; }
+    .jumbotron #linkHeader .intro-message {
+      display: table;
+      margin: 0 auto; }
+      .jumbotron #linkHeader .intro-message ul {
+        padding: 0px; }
+      .jumbotron #linkHeader .intro-message > ul li {
+        padding-left: 10px;
+        padding-right: 10px;
+        display: inline; }
+    .jumbotron h2 {
+      font-size: 32px; }
+    .jumbotron p {
+      font-size: 20px; }
+
+  .jumbotron2 {
+    height: 250px; }
+    .jumbotron2 .container {
+      position: relative;
+      top: 20%; }
+
+  .jumbotron h1,
+  .jumbotron2 h1 {
+    font-size: 100px; }
+
+  .about-me h2 {
+    font-size: 52px; }
+  .about-me img {
+    margin-right: auto; }
+
+  .side-projects h3 {
+    font-size: 40px; }
+  .side-projects .icons {
+    font-size: 50px; }
+
+  .footer .container {
+    top: 20%; }
+  .footer h2 {
+    font-size: 64px;
+    padding-bottom: 20px; }
+  .footer p {
+    font-size: 20px; } }
+.resume {
+  padding-top: 10px; }
+
+/*# sourceMappingURL=main.css.map */
