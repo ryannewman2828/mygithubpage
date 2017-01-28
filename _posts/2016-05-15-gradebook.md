@@ -14,5 +14,5 @@ project: true
     </div>
 </div>
 <div class="container">
-    <p>{{site.data.gradebook.desc}}<a href="https://github.com/ryannewman2828/GradeBook" target="_blank">here</a>.</p>
+    <p>{{site.data.gradebook.desc}}</p>
 </div>

@@ -2,5 +2,5 @@
     icons: [
         "devicon-java-plain-wordmark"
     ],
-    desc: "The Procedural Terrain Generator is a program that generates randomized two dimensional terrain. It accomplishes this by using a fractal algorithm to break apart a line segment into two to the power of n - 1, where n is the amount of performed iterations. The repository for this project is located "
+    desc: "The Procedural Terrain Generator is a program that generates randomized two dimensional terrain. It accomplishes this by using a fractal algorithm to break apart a line segment into two to the power of n - 1, where n is the amount of performed iterations. The repository for this project is located <a href=\"https://github.com/ryannewman2828/Procedural-Terrain-Generator\" target=\"_blank\">here</a>."
 }

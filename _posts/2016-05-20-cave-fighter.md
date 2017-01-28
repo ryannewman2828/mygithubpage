@@ -19,7 +19,7 @@ project: true
             <img src="../images/screenshot.jpg" height="300px" width="325px">
         </div>
         <div class = "col-md-8">
-            <p>{{site.data.cavefighter.desc}}<a href="https://github.com/ryannewman2828/Cave-Fighter" target="_blank">here</a>.</p>
+            <p>{{site.data.cavefighter.desc}}</p>
         </div>
     </div> 
 </div>
