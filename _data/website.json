@@ -1,0 +1,11 @@
+{
+    icons: [
+        "devicon-bootstrap-plain-wordmark",
+        "devicon-css3-plain-wordmark",
+        "devicon-html5-plain-wordmark",
+        "devicon-javascript-plain",
+        "devicon-jquery-plain-wordmark",
+        "devicon-sass-original"
+    ],
+    desc: "I personally designed this website from scratch. I used HTML 5 to arrange and produce the content on this website. I wrote all the styling for this website in Sass, which was compiled down to CSS 3. Using the Bootstrap framework I was able add dynamic scalability to the website meaning the website will automatically adapt to different sized browsers and devices. JavaScript along with jQuery were used to allow the skills in the skills tab to be loaded/unloaded on button pushes. It also has effects thanks to the jQuery animation interface."
+}
