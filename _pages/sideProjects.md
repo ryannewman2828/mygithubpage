@@ -8,7 +8,9 @@ permalink: /sideProjects/
     {% for post in site.posts %}
         {% if post.project %}
         <div class="{{post.title}}">
-            {{ post.excerpt }}
+            <div class="container">
+                {{ post.excerpt }}
+            </div>
         </div>    
         {% endif %}
     {% endfor %}
