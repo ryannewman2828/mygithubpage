@@ -11,4 +11,6 @@ project: true
         {% endfor %}
     </div>
 </div>
-<p>{{site.data.gradebook.desc}}</p>
+<div class="content">
+    <p>{{site.data.gradebook.desc}}</p>
+</div>

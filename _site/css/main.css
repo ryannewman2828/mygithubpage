@@ -140,14 +140,24 @@
   float: right;
   vertical-align: middle;
   padding-top: 10px; }
-
 .side-projects .container img {
   display: block;
   margin-left: auto;
   margin-right: auto; }
+.side-projects .content {
+  padding-top: 10px; }
 
 .experience .position {
   float: right; }
+.experience ul {
+  position: relative;
+  left: 2.5%;
+  margin: 0px;
+  padding: 0px;
+  list-style: square; }
+.experience li {
+  font-size: 18px;
+  text-align: left; }
 
 .skills h3 {
   font-size: 48px;
@@ -155,8 +165,11 @@
   vertical-align: middle; }
 .skills ul {
   display: none;
+  position: relative;
+  left: 1.5%;
   margin: 0px;
   padding: 0px;
+  padding-top: 10px;
   list-style: square; }
 .skills li {
   font-size: 16px;
@@ -249,5 +262,3 @@
     padding-bottom: 20px; }
   .footer p {
     font-size: 20px; } }
-.resume {
-  padding-top: 10px; }

@@ -7,8 +7,11 @@
     
     ul {
         display: none;
+        position: relative;
+        left: 1.5%;
         margin: 0px;
         padding: 0px;
+        padding-top: 10px;
         list-style: square; 
     }
     

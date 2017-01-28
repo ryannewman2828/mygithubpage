@@ -11,7 +11,7 @@ project: true
         {% endfor %}
     </div>
 </div>
-<div class="row">
+<div class="row content">
     <div class = "col-md-4">
         <img src="../images/screenshot.jpg" height="300px" width="325px">
     </div>
