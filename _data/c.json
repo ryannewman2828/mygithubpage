@@ -1,0 +1,10 @@
+{
+    icons: [
+        "devicon-c-plain"
+    ],
+    desc: [
+        "Participated in multiple programming contests",
+        "Implemented algorithms to optimize memory allocation and run-time",
+        "Finished university course with 87%"
+    ]
+}

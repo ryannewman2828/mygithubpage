@@ -1,0 +1,10 @@
+{
+    icons: [
+        "devicon-html5-plain"
+    ],
+    desc: [
+        "Used to Create personal website",
+        "Used to create the web application UWEvents",
+        "Used to create Exodius Arena"
+    ]
+}

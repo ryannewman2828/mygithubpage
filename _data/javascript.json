@@ -1,0 +1,15 @@
+{
+    icons: [
+        "devicon-angularjs-plain",
+        "devicon-nodejs-plain",
+        "devicon-jquery-plain-wordmark", 
+        "devicon-javascript-plain"
+    ],
+    desc: [
+        "Used for the front-end of Exodius Arena with the help of AngularJS",
+        "Used for the back-end of Exodius Arena with the help of Node.js",
+        "Used for both unit testing and e2e testing Exodius Arena with the help of Jasmine and Protractor",
+        "Used for the dynamic button system in the skills section of my personal website with the help of jQuery",
+        "Used jQuery to produce animations on the web application UWEvents"
+    ]
+}

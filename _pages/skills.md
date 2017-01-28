@@ -8,7 +8,9 @@ permalink: /skills/
 <div class="skills">
     {% for post in site.posts %}
         {% if post.skill %}
-            {{ post.excerpt }}
+            <div>
+                {{ post.excerpt }}
+            </div>
         {% endif %}
     {% endfor %}
 </div>

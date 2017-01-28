@@ -1,0 +1,10 @@
+{
+    icons: [
+        "devicon-bootstrap-plain"
+    ],
+    desc: [
+        "Assisted with the styling of my personal website",
+        "Used to style the web application UWEvents",
+        "Used for styling and for the carousel in Exodius Arena"
+    ]
+}
