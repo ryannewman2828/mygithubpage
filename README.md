@@ -1,3 +1,2 @@
-# ryannewman2828.github.io
-Hello I am Ryan Newman and this is the readme for my personal website. 
-HTML and CSS were used for the marking and the styling of the website, while Javascript with JQuery were used for animating and making the front end look more appealing
+# ryannewman2828.github.io 
+Hello I am Ryan Newman and this is the readme for my personal website. This website uses Jekyll to abstract out content and to combine configuration files written in YAML, template files written in Markdown and data files written in JSON into one coherent website. The markdown files are a combination of Markdown and HTML and describe how the content should be served on the site. The data files hold the specific data for every entry on the site. The styling for this website Bootstrap and Sass which is then compiled down to CSS. Javascript in conjunction jQuery is used for the dynamic animations on the skills page of the website. Finally a bootstrapping Golang script was written to create an empty _data and _post file for the entry being added to the website, i.e. a new project or skill.
