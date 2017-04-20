@@ -35,9 +35,9 @@ func main(){
     var year string
     // Checks valid type
     if entryType == "project"{
-        year = "2014"
-    } else if entryType == "experience" {
         year = "2016"
+    } else if entryType == "experience" {
+        year = "2014"
     } else if entryType == "skill" {
         year = "2015"
     } else {
