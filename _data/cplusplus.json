@@ -1,10 +1,12 @@
 {
     icons: [
+        "devicon-c-plain",
         "devicon-cplusplus-plain"
     ],
     desc: [
         "Participated in multiple programming contests",
-        "Implemented algorithms to optimize memory allocation and run-time",
-        "Currently enrolled in university course that teaches the language"
+        "Finished university C course with 87%",
+        "Finished university Object-Oriented Software Development C++ course with 88%",
+        "Currently enrolled in university course that teaches C++"
     ]
 }

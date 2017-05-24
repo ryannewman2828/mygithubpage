@@ -8,7 +8,7 @@ skill: true
     {% for icon in site.data.javascript.icons %}
         <i class="{{icon}}"></i>
     {% endfor %}
-     Javascript <span><button class="btn btn-info" id = "javascript">See Skill</button></span></h3> 
+     JavaScript <span><button class="btn btn-info" id = "javascript">See Skill</button></span></h3> 
 </div>
 <ul class="javascript">
     {% for li in site.data.javascript.desc %}

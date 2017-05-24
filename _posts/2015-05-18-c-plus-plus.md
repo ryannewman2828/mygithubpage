@@ -8,7 +8,7 @@ skill: true
     {% for icon in site.data.cplusplus.icons %}
         <i class="{{icon}}"></i>
     {% endfor %}
-     C++ <span><button class="btn btn-info" id="cPlusPlus">See Skill</button></span></h3>
+     C/C++ <span><button class="btn btn-info" id="cPlusPlus">See Skill</button></span></h3>
 </div>
 <ul class="cPlusPlus">
     {% for li in site.data.cplusplus.desc %}

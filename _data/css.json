@@ -1,13 +1,16 @@
 {
     icons: [
         "devicon-sass-original",
+        "devicon-bootstrap-plain",
+        "devicon-html5-plain",
         "devicon-css3-plain"
     ],
     desc: [
-        "Utilized for styling my personal website",
+        "Utilized for marking up and styling my personal website",
+        "Used as a Software Engineering Intern to style a Go web application and a Springboot application",
         "Sass was used in the site as an extension to CSS for organization and modularization purposes",
-        "Used to style the web application UWEvents",
-        "Used to style the web application, Exodius Arena",
-        "Sass was used on Exodius Arena to allow for easier styling and worked with the file runner to create minified/uglified CSS"
+        "Used to markup and style the web application UWEvents",
+        "Used to markup and style the web application, PL∀N",
+        "Sass was used on PL∀N to allow for easier styling and worked with the file runner to create minified/uglified CSS"
     ]
 }

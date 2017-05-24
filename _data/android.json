@@ -1,9 +1,0 @@
-{
-    icons: [
-        "devicon-android-plain"
-    ],
-    desc: [
-        "Programmed GradeBook application",
-        "Performed functional and exploratory testing of an Android application including installation, LogCat analysis, and troubleshooting of connectivity issues"
-    ]
-}

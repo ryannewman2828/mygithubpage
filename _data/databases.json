@@ -1,0 +1,11 @@
+{
+    icons: [
+        "devicon-mysql-plain-wordmark",
+        "devicon-mongodb-plain-wordmark"
+    ],
+    desc: [
+        "Used SQL as a Software Engineering Intern to save usage information for a Springboot application that pinged from platform specific subnets including what domain was targeted, by who and if the request was successful",
+        "Used MongoDB in PL∀N to save all the users account information including email, hashed passwords and a list of friends",
+        "Used SQL in the Documented-Learning POC 'SQL-Sandbox' to learn basic-advanced SQL concepts such as joins and indexes"
+    ]
+}

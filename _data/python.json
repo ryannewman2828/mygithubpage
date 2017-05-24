@@ -1,0 +1,10 @@
+{
+    icons: [
+        "devicon-python-plain"
+    ],
+    desc: [
+        "Used in Documented-Learning for algorithm implementations and to solve Project Euler Problems",
+        "As a Junior Automation Developer I Wrote a set of scripts in Python that runs a prebuilt installer against a set of specified target servers",
+        "Working on a project with NumPy, ReactJS, D3.js and Flask to do data analysis, including using technical analysis and machine learning, on stocks and indicate which ones should be sold/bought"
+    ]
+}
