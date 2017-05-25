@@ -2,7 +2,7 @@
     title: "Software Engineering Intern",
     range: "January 2017 - April 2017",
     desc: [
-        "Developed a Go web application that generated access reports by querying multiple API’s, converted the data into a csv format and sent the report via email",
+        "Developed a Go web application that generated access reports by querying multiple API’s, converted the data into a CSV format and sent the report via email",
         "Wrote a Bosh release that deployed a Vulnerability Management Agent onto hundreds of Virtual Machines",
         "Wrote a Spring web application that allowed developers to check for connectivity from specific platform subnets to a designated host and port",
         "Created Bash automation to assist developers with the onboarding of their applications",

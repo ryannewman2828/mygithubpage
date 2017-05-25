@@ -2,7 +2,7 @@
     title: "Junior Automation Developer",
     range: "May 2016 - August 2016",
     desc: [
-        "Built a Command Line Utitility Application that parsed and analysed HTTP requests/respones in the form of .har files then checked the data against a set of predefined rules",
+        "Built a Command Line Utitility Application that parsed and analyzed HTTP requests/respones in the form of HAR files then checked the data against a set of predefined rules",
         "The Application was programmed in Java and made use of design patterns/modularization to support further extension of the project in the future",
         "Added multiple features to a platform Test Runner including strict mode, durations and a negative assertion using Java, ANTLR and Regex",
         "Wrote scripts in Bash and Python that runs a prebuilt installer against a set of specified target servers using Jenkins for the deploy",
