@@ -1,0 +1,14 @@
+{
+    icons: [
+        "devicon-css3-plain-wordmark",
+        "devicon-express-original-wordmark",
+        "devicon-google-plain-wordmark",
+        "devicon-html5-plain-wordmark",
+        "devicon-javascript-plain",
+        "devicon-mongodb-plain-wordmark",
+        "devicon-nodejs-plain",
+        "devicon-react-original-wordmark"
+    ],
+    desc: "This was our project for Hack the 6ix 2017. The purpose of this application is to give home chefs a platform to market and sell their food. Its purpose is to also give people access to home cooked meals for cheaper when compared to take out. The application was programmed with use of the MongoDB, Express, React and Node.js stack. It allows for both consumer and vendor sign up while allowing you to specify your address and types of cuisine. It also integrates with the Google Maps API to determine and show the locations nearby the buyer that are selling food, similar to uber's map with nearby drivers. The repository for this project is located <a href=\"https://github.com/ryannewman2828/Food-Website\" target=\"_blank\">here</a>.</p>
+    <p><i class=\"fa fa-users\"></i> Rita Chan, Susie Son, Sidhant Sharma"
+}
