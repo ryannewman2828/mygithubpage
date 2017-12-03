@@ -1,0 +1,17 @@
+{
+    icons: [
+        "devicon-android-plain-wordmark",
+        "devicon-css3-plain-wordmark",
+        "devicon-express-original-wordmark",
+        "devicon-html5-plain-wordmark",
+        "devicon-java-plain-wordmark",
+        "devicon-javascript-plain",
+        "devicon-mongodb-plain-wordmark",
+        "devicon-nodejs-plain",
+        "devicon-react-original-wordmark",
+        "devicon-twitter-plain",
+        "devicon-vuejs-plain-wordmark"
+    ],
+    desc: "This was our project for Hack Western 2017. The purpose of this application was to provided depressed clients with a platform to connect with one another allowing them to see that they're not alone. To pair people together we first scraped the user's twitter account then used the Watson Sentiment Analysis API to develop a profile on the user and match people based on certain characteristics. After the pairing process is completed we monitor and send the user's chat history to the Watson's Tone Analysis API to gain insight into the user's mood and send the statistics to an administrative figure. For this project I programmed the backend using MongoDB, Express, React, Node.js and Firebase. The backend is interfacable through both a web and mobile client. The repository for this project is located <a href=\"https://github.com/ryannewman2828/Hack-Western-4-Chat-App\" target=\"_blank\">here</a>.</p>
+    <p><i class=\"fa fa-users\"></i> Sarthak Arora, Fayadh Ahmed, Ali Tunahan Ciğdemoğlu"
+}
