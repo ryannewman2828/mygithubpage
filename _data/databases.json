@@ -1,7 +1,8 @@
 {
     icons: [
         "devicon-mysql-plain-wordmark",
-        "devicon-mongodb-plain-wordmark"
+        "devicon-mongodb-plain-wordmark".
+        "devicon-postgresql-plain-wordmark"
     ],
     desc: [
         "Used SQL as a Software Engineering Intern to save usage information for a Springboot application that pinged from platform specific subnets including what domain was targeted, by who and if the request was successful",
