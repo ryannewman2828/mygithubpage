@@ -1,7 +1,7 @@
 {
     icons: [
         "devicon-mysql-plain-wordmark",
-        "devicon-mongodb-plain-wordmark".
+        "devicon-mongodb-plain-wordmark",
         "devicon-postgresql-plain-wordmark"
     ],
     desc: [
