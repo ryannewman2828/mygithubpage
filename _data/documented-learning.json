@@ -3,6 +3,7 @@
         "devicon-angularjs-plain",
         "devicon-bootstrap-plain-wordmark",
         "devicon-css3-plain-wordmark",
+        "devicon-express-original-wordmark",
         "devicon-html5-plain-wordmark",
         "devicon-java-plain-wordmark",
         "devicon-javascript-plain",
@@ -11,6 +12,7 @@
         "devicon-mysql-plain-wordmark",
         "devicon-nodejs-plain",
         "devicon-python-plain-wordmark",
+        "devicon-react-original-wordmark",
         "devicon-sass-original"
     ],
     desc: "Documented-Learning is my repository meant for housing prototype works and documenting the learning and implementation of specific topics of interest. Currently the sections are divided into Algorithms, Coursera, Design Patterns, Project Euler, Projects and Unix. Algorithms are meant to hold my efficient implementation of algorithms either used in projects or learned from classes. Coursera holds the assignments and notes from classes taken on the website. Design Patterns hold example implementations of each pattern as well as common usages. Project Euler holds solutions to some of the problems on the site. Projects is where I place my prototype work or projects to enforce understanding on software concepts like websockets. Finally Unix is where I place things specific to Unix systems like Shell Commands and Linux Kernels. This repository allows me to grow my understanding of key Computer Science Concepts and helps me remember all the content that I learn. The repository for this project is located <a href=\"https://github.com/ryannewman2828/Documented-Learning\" target=\"_blank\">here</a>"
