@@ -2,13 +2,13 @@
     title: "Full Stack Developer",
     range: "September 2017 - December 2017",
     desc: [
-        "Worked with stakeholders, managers and designers to create and rapidly prototype 5 POC applications",
-        "Created a web app to find the nearest LCBO store that contains all desired products",
-        "Developed a web application to streamline the vendoring process between breweries and stores",
-        "Built a chrome extension to overlay a chatbot on the LCBO website that helps clients pair food with alcohol",
-        "Developed a highly scableable and secure backend/admin portal to support digital identity",
-        "Architected a microservice to perform data transformation and batch process thousands of alcohol orders",
-        "Played a key role in pushing the LCBO|next platform architecture forward",
-        "Worked with Node.js, MongoDB, PostgreSQL, ReactJS, Redux, Azure, Redis and Blob Storage"
+        "Worked with stakeholders, managers and designers to create and rapidly prototype 5 POC applications.",
+        "Created a web app to find the nearest LCBO store that contains all desired products.",
+        "Developed a web application to streamline the vendoring process between breweries and stores.",
+        "Built a chrome extension to overlay a chatbot on the LCBO website that helps clients pair food with alcohol.",
+        "Developed a highly scableable and secure backend/admin portal to support digital identity.",
+        "Architected a microservice to perform data transformation and batch process thousands of alcohol orders.",
+        "Played a key role in pushing the LCBO|next platform architecture forward.",
+        "Worked with Node.js, MongoDB, PostgreSQL, ReactJS, Redux, Azure, Redis and Blob Storage."
     ]
 }

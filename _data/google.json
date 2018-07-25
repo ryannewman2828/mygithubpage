@@ -1,0 +1,12 @@
+{
+    title: "Software Engineering Intern",
+    range: "January 2018 - April 2018",
+    desc: [
+        "Worked on the team responsible for the Google Express Customer Support application.",
+        "Wrote API’s in Java and UI in AngularDart to support a highly scalable and maintainable draft email feature.",
+        "Extended current email infrastructure by implementing scheduling and attachment capabilities.",
+        "Implemented measuring, monitoring and alerting for base client to server network latency.",
+        "Extended current WebDriver test suite by adding image diff assertions for the UI.",
+        "Participated in classes on campus focusing on topics such as TensorFlow and The Life of a Browser Event."
+    ]
+}
