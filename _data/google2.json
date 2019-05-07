@@ -2,7 +2,7 @@
   title: "Software Engineering Intern",
   range: "January 2019 - April 2019",
   desc: [
-    "Built a tool that increases the developer’s velocity by reducing their contextual loss when switching workflows",
+    "Built a tool that increases the developer’s velocity by reducing their contextual loss when switching workflows.",
     "Designed and implemented a data pipelining system to handle complex event processing.",
     "Framed problems surrounding data model and storage, resulting in a graph data layer.",
     "Designed an extensible GraphQL query service supporting a large array of access patterns.",
